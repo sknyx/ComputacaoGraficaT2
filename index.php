@@ -265,7 +265,7 @@
 
                 <div class="col-md-11" style="margin-left: 30px;">
                     <br>
-                    <p style="text-align: justify; color: white; opacity: .9; font-weight: lighter;">Entre os empregadores, a maior demanda é proveniente do Facebook. Na verdade, a demanda de contratação do Facebook. A Accenture também está aumentando a sua contratação para RA e RV. A contratação da empresa de consultoria para RA e RV aumentou mais de 300% nos últimos dois anos. De longe, o principal papel que envolve RA e RV é o desenvolvedor de software/engenheiro, seguido pelo desenvolvedor de aplicativos móveis, engenheiros de sistemas de computação/arquitetos e outras funções. Ao considerar uma carreira na área, existem alguns pontos que você deve levar em consideração: </p>
+                    <p style="text-align: justify; color: white; opacity: .9; font-weight: lighter;">Entre os empregadores, a maior demanda é proveniente do Facebook. A Accenture também está aumentando a sua contratação para RA e RV. A contratação da empresa de consultoria para RA e RV aumentou mais de 300% nos últimos dois anos. De longe, o principal papel que envolve RA e RV é o desenvolvedor de software/engenheiro, seguido pelo desenvolvedor de aplicativos móveis, engenheiros de sistemas de computação/arquitetos e outras funções. Ao considerar uma carreira na área, existem alguns pontos que você deve levar em consideração: </p>
 
                     <li style="font-weight: bold;">Há uma escassez de candidatos no mercado</li>
                     <p style="text-align: justify; color: white; opacity: .9; font-weight: lighter;">
