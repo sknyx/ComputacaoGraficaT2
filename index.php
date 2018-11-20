@@ -253,7 +253,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-11" style="margin-left: 30px;">
-                <h2>AR no mercado de trabalho</h2>
+                <h2>RA no mercado de trabalho</h2>
                 <p style="text-align: justify; color: white; opacity: .9; font-weight: lighter;">O mundo dos negócios está sempre entre os primeiros a adotar as tecnologias mais recentes. Isso não é nenhuma surpresa: a competição em cada setor e nicho força os empreendedores e os CEOs a pensar como os melhores jogadores de xadrez e manter seus olhos sempre treinados sobre o que o futuro pode trazer. Neste momento, a realidade aumentada e a realidade virtual são os alvos à vista.
                     Este é um campo tão novo que <a href="https://www.burning-glass.com/blog/augmented-reality-virtual-reality-jobs-become-real/">nenhum dos cinco principais empregadores em 2017 solicitou habilidades AR ou VR antes de 2013.</a></p>
                     <br>
