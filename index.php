@@ -178,7 +178,7 @@
                 <p>Segundo a Saga Brasil, é basicamente o processo de criar um objeto com 3 dimensões (tridimensional), programados de forma específica para isso. A técnica é utilizada para simular objetos, cenários, personagens, com aplicação voltada mais para a área de jogos, cinema, arquitetura e ilustrações.</p>
             </div>
             <div class="col-md-4 text-center fadeInUp" >
-                <img src="images/tenor.gif" style="width: 424px; height: 256px; margin-top: 70px;">
+                <iframe width="424" height="256" style="margin-top: 70px;" src="https://www.youtube.com/embed/g49wAkJkV4A?start=6;controls=1;loop=1;showinfo=0;autoplay=1&mute=1&loop=1&playlist=g49wAkJkV4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-offset-1 col-md-10" style="margin-top: 40px; text-align: justify;">
                 <h2 style="font-size: 1.5em; color: rgb(32,28,28);">Tipos de geometria na modelagem 3D</h2>
@@ -218,50 +218,50 @@
                     <img src="images/resultado.jpg" style="width: 524px; height: 556px;display: block; margin-left: auto; margin-right: auto;">
                     <br>
                 </div>
-            <div class="col-md-offset-1 col-md-10">
-                <h2 style="font-size: 1.5em; color: rgb(32,28,28);">Tranformações 3D</h2>       
-                <p>A manipulação, visualização e a construção de imagens gráficas tridimensionais requer a utilização de transformações de coordenadas ( transformadas matematicamente). O objeto é considerado como conjunto de 3 pontos: Obj = {P(x, y, z)}. 
-                </p>
+                <div class="col-md-offset-1 col-md-10">
+                    <h2 style="font-size: 1.5em; color: rgb(32,28,28);">Tranformações 3D</h2>       
+                    <p>A manipulação, visualização e a construção de imagens gráficas tridimensionais requer a utilização de transformações de coordenadas ( transformadas matematicamente). O objeto é considerado como conjunto de 3 pontos: Obj = {P(x, y, z)}. 
+                    </p>
 
-                <p>A <strong>translação</strong> de um ponto P no espaço (x, y, z) é feita pela adição em X, Y e Z do valor da translação. Tendo como fórmula P' = T(dx, dy, dz) * P, onde P é o valor da translação e dx, dy e dz são as coordenadas do objeto.</p>
+                    <p>A <strong>translação</strong> de um ponto P no espaço (x, y, z) é feita pela adição em X, Y e Z do valor da translação. Tendo como fórmula P' = T(dx, dy, dz) * P, onde P é o valor da translação e dx, dy e dz são as coordenadas do objeto.</p>
 
-                <p> A transformação de <strong>escala</strong> altera as dimensões de um objeto, A operação de escala em coordenadas homogêneas fica na forma: T(x, y, z, 1) = (x*Sx, y*Sy, z*Sz, 1), onde x,y,z são as coordenadas do objeto e Sx, Sy e Sz são as variações de escala. Vale lembrar que o fator de escala S = (Sx, Sy, Sz) varia para maior que 1 para ampliação e menor que 1 para redução. </p>
+                    <p> A transformação de <strong>escala</strong> altera as dimensões de um objeto, A operação de escala em coordenadas homogêneas fica na forma: T(x, y, z, 1) = (x*Sx, y*Sy, z*Sz, 1), onde x,y,z são as coordenadas do objeto e Sx, Sy e Sz são as variações de escala. Vale lembrar que o fator de escala S = (Sx, Sy, Sz) varia para maior que 1 para ampliação e menor que 1 para redução. </p>
 
-                <p> Em 3D é preciso definir um ângulo de rotação θ e um eixo de rotação:
-                    As equações da <strong>Rotação</strong> em torno aos eixos Ox e Oy podem ser obtidas mediante permutações cíclicas das coordenadas dos parâmetros x, y e z. Isto é podemos utilizar as seguintes permutações: x ➝ y➝ z➝ x 
-                    Substituindo estas permutações na equação da rotação em torno do eixo Oz obtemos a seguinte Equação para a rotação em torno do eixo Ox.
-                </p>
+                    <p> Em 3D é preciso definir um ângulo de rotação θ e um eixo de rotação:
+                        As equações da <strong>Rotação</strong> em torno aos eixos Ox e Oy podem ser obtidas mediante permutações cíclicas das coordenadas dos parâmetros x, y e z. Isto é podemos utilizar as seguintes permutações: x ➝ y➝ z➝ x 
+                        Substituindo estas permutações na equação da rotação em torno do eixo Oz obtemos a seguinte Equação para a rotação em torno do eixo Ox.
+                    </p>
 
-                <p><strong>Em torno de Oz</strong><br>
-                    x' = x*cos(θ) – y*sin(θ) <br>
-                    y' = x*sin(θ) + y*cos(θ) <br>
-                    z' = z
-                </p>
+                    <p><strong>Em torno de Oz</strong><br>
+                        x' = x*cos(θ) – y*sin(θ) <br>
+                        y' = x*sin(θ) + y*cos(θ) <br>
+                        z' = z
+                    </p>
 
-                <p><strong>Em torno de Ox</strong><br>
-                    x' = x <br>
-                    y' = y*cos(θ) – z*sin(θ) <br>
-                    z' = y*sin(θ) + z*cos(θ) 
-                </p>
+                    <p><strong>Em torno de Ox</strong><br>
+                        x' = x <br>
+                        y' = y*cos(θ) – z*sin(θ) <br>
+                        z' = y*sin(θ) + z*cos(θ) 
+                    </p>
 
-                <p>Utilizando o mesmo pensamento anterior, podemos conseguir a rotação em torno no eixo Oy, de forma que:</p>
+                    <p>Utilizando o mesmo pensamento anterior, podemos conseguir a rotação em torno no eixo Oy, de forma que:</p>
 
-                <p><strong>Em torno de Oz</strong><br>
-                    x' = x*cos(θ) – y*sin(θ) <br>
-                    y' = x*sin(θ) + y*cos(θ) <br>
-                    z' = z*cos(θ) – x*sin(θ)
-                </p>
+                    <p><strong>Em torno de Oz</strong><br>
+                        x' = x*cos(θ) – y*sin(θ) <br>
+                        y' = x*sin(θ) + y*cos(θ) <br>
+                        z' = z*cos(θ) – x*sin(θ)
+                    </p>
 
-                <p><strong>Em torno de Oy</strong><br>
-                    x' = z*sin(θ) + x*cos(θ) <br>
-                    y' = y <br>
-                    z' = z
-                </p>
+                    <p><strong>Em torno de Oy</strong><br>
+                        x' = z*sin(θ) + x*cos(θ) <br>
+                        y' = y <br>
+                        z' = z
+                    </p>
 
-                <p>A <strong>reflexão</strong> em 3D pode ser feita de duas formas:  Relativamente a um eixo de reflexão dado e Relativamente a um plano de reflexão dado. Em geral as matrizes das transformações de reflexão em 3D são bem parecidas com as matrizes de reflexão em 2D, se queremos a reflexão de P(x,y,z) com relação ao plano xOy temos que P’(x, y, –z), e segue a mesma ideia para os outros eixos.</p>
+                    <p>A <strong>reflexão</strong> em 3D pode ser feita de duas formas:  Relativamente a um eixo de reflexão dado e Relativamente a um plano de reflexão dado. Em geral as matrizes das transformações de reflexão em 3D são bem parecidas com as matrizes de reflexão em 2D, se queremos a reflexão de P(x,y,z) com relação ao plano xOy temos que P’(x, y, –z), e segue a mesma ideia para os outros eixos.</p>
 
-                <br>
-            </div>
+                    <br>
+                </div>
             </div>
         </div>
     </section>
@@ -397,48 +397,62 @@
         <section id="experimento" style="background: rgb(32,28,28);"> <!-- AR Vs. VR -->
             <div class="container" style="background: orange; opacity: 0.8;">
                 <div class="row features">
-                    <div class="col-md-offset-1 col-md-10">
+                    <div class="col-md-offset-1 col-md-10" style="text-align: justify;">
                         <h3>Experimentos com RA</h3>
-                        <p>A realidade aumentada poderia ser chamada de parcialmente imersiva. Enquanto a realidade virtual procura envolvê-lo em mundos virtuais, a realidade aumentada tenta colocar coisas virtuais em nosso mundo real.
-                        </p>
-                        <br>
-                    </div>
-                    <div class="col-md-2 text-center fadeInUp" >
-                    </div>
-                    <div class="col-md-4 text-center fadeInUp" >
-                        <span class="typcn typcn-pencil x3"></span>
-                        <h4>Realidade Virtual</h4>
-                        <p>Realidade Virtual é a criação de um ambiente virtual e imersivo, gerado por computador, para substituir o mundo real e que pode ser explorado e interagido por uma pessoa. Essa pessoa se torna parte deste mundo virtual ou está imersa nesse ambiente e, enquanto estiver lá, é capaz de manipular objetos ou realizar uma série de ações.</p>
-                    </div>
-                    <div class="col-md-4 text-center fadeInUp" >
-                        <img src="images/tenor.gif" style="width: 424px; height: 256px; margin-top: 70px;">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="conclusao" class="blog fadeInUp">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-11" style="margin-left: 30px;">
-                        <h2>Concluindo...</h2>
-                        <p style="text-align: justify; color: white; opacity: .9; font-weight: lighter;">
-                            A realidade aumentada é um grande negócio e deve estar recebendo mais atenção do que atualmente tem em termos de oportunidades de trabalho. Uma das principais mudanças que a realidade aumentada trouxe é a possibilidade do conhecimento prévio já não ser mais um fator limitante na capacidade de realizar um trabalho.<br>
-                            O conhecimento pode agora vir de um módulo de instruções pré-criado, inteligência artificial ou outro colega mais experiente, passando instruções via RA. Como resultado, o trabalhador no local se torna uma maneira de aplicar esse conhecimento digital ao mundo real, agindo como um par de mãos físicas para instruções digitais.<br>
-                            Ao procurar um emprego neste setor, é percebido que os recrutadores e os empregadores estão procurando um conhecimento pré-estabelecido das linguagens de programação atuais. Aprender linguagens de programação, como C++ e C#, é essencial para desenvolver suas habilidades, pois elas são comuns na indústria. A combinação dessas habilidades de linguagem com habilidades interpessoais e de comunicação cria uma base para conseguir um emprego em RA.
-                            Também é necessário entender que ter conhecimento em matemática 3D, design 3D, renderização e design UX é muito importante na indústria. Compreender matemática vetorial e álgebra linear irá colocá-lo à frente de outros candidatos em potencial. Definir e aperfeiçoar essas habilidades em programação e matemática são os trampolins para melhorar seu currículo e seu portfólio, tornando-o mais atraente para os recrutadores e possíveis empregadores.<br>
-                        Com essa qualificação, há vários trabalhos que você pode pesquisar, como: Líder de equipe, Engenheiro de Software, Engenheiro Gráfico e Desenvolvedor.</p><br>
-                        <li><a href="https://docs.google.com/document/d/1fR_1AIyH6_FXnwkWqkynX5Y1sU9ubgmjOYSEs3MKH_0/edit?usp=sharing" target = "blank">Bibliografia.</a></li>
-                        <li>Grupo: Ana Clara, Carolina, Rafael Padilha.</li>
+                        <div class="col-md-8 text-center fadeInUp" style="text-align: justify;">
+                            <p>Se você nunca presenciou realidade aumentada na prática, ou caso simplesmente queira ver mais um exemplo simples da RA em ação, podemos fazer o seguinte:
+                            </p>
+                            <p> <strong>- Requisitos:</strong> Você vai precisar de um smartphone ou tablet Android/iOS com câmera fotográfica, 141MB de espaço em memória disponível e permitir acessos específicos ao app.</p>
+                            <p><strong>1.</strong> Com seu smartphone ou tablet Android/iOS em mãos, navegue até a sua loja de aplicativos (Android - Playstore / iOS - AppStore) </p>
+                            <p><strong>2.</strong> Na aba de pesquisa, procure pelo app "Holo" e faça o download do app "Holo - Holograms for Videos in Augmented Reality". O Holo utiliza o recurso de realidade aumentada para disponibilizar hologramas que aparecem na tela do celular como se fizessem parte do ambiente real.</p>
+                            <p><strong>3.</strong> Abra o aplicativo após a conclusão do download, clique em "Let's get started" na página inicial e insira o dados pedidos pelo aplicativo.</p>
+                            <p><strong>4.</strong> Conceda as permissões requisitadas pelo aplicativo.</p>
+                            <p><strong>5.</strong> Divirta-se visualizando os diversos personagens disponíveis no app em realidade aumentada. Você pode fazer o download dos personagens que preferir e alocá-los aonde quiser no seu ambiente ao arrastá-lo pela tela, assim como pode rotacionar e aumentar/diminuir o seu tamanho, seguindo as intruções dadas pelo aplicativo.</p>
+                            <br>
+                        </div>
+                        <div class="col-md-2 text-center fadeInUp" >
+                            <div style="    height: 480px;
+                            width: 324px;
+                            overflow: hidden;
+                            position: relative;">
+                            <iframe  controls="1" muted frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="  min-width: 100%;
+                            min-height: 100%;
+                            width: 824px;
+                            height: 480px;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translateX(-50%) translateY(-50%);" src="https://www.youtube.com/embed/LIPxWhl-vOw">
+                        </div>
+                        <!--  <iframe width="940" height="480" src="AR_Experimento_de_CG.mp4" border="0px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <footer style="background: purple;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
+    <section id="conclusao" class="blog fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-11" style="margin-left: 30px;">
+                    <h2>Concluindo...</h2>
+                    <p style="text-align: justify; color: white; opacity: .9; font-weight: lighter;">
+                        A realidade aumentada é um grande negócio e deve estar recebendo mais atenção do que atualmente tem em termos de oportunidades de trabalho. Uma das principais mudanças que a realidade aumentada trouxe é a possibilidade do conhecimento prévio já não ser mais um fator limitante na capacidade de realizar um trabalho.<br>
+                        O conhecimento pode agora vir de um módulo de instruções pré-criado, inteligência artificial ou outro colega mais experiente, passando instruções via RA. Como resultado, o trabalhador no local se torna uma maneira de aplicar esse conhecimento digital ao mundo real, agindo como um par de mãos físicas para instruções digitais.<br>
+                        Ao procurar um emprego neste setor, é percebido que os recrutadores e os empregadores estão procurando um conhecimento pré-estabelecido das linguagens de programação atuais. Aprender linguagens de programação, como C++ e C#, é essencial para desenvolver suas habilidades, pois elas são comuns na indústria. A combinação dessas habilidades de linguagem com habilidades interpessoais e de comunicação cria uma base para conseguir um emprego em RA.
+                        Também é necessário entender que ter conhecimento em matemática 3D, design 3D, renderização e design UX é muito importante na indústria. Compreender matemática vetorial e álgebra linear irá colocá-lo à frente de outros candidatos em potencial. Definir e aperfeiçoar essas habilidades em programação e matemática são os trampolins para melhorar seu currículo e seu portfólio, tornando-o mais atraente para os recrutadores e possíveis empregadores.<br>
+                    Com essa qualificação, há vários trabalhos que você pode pesquisar, como: Líder de equipe, Engenheiro de Software, Engenheiro Gráfico e Desenvolvedor.</p><br>
+                    <li><a href="https://docs.google.com/document/d/1fR_1AIyH6_FXnwkWqkynX5Y1sU9ubgmjOYSEs3MKH_0/edit?usp=sharing" target = "blank">Bibliografia.</a></li>
+                    <li>Grupo: Ana Clara, Carolina, Rafael Padilha.</li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background: purple;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
 <!--                 <h3>Your Logo</h3>
                 <p>© 2016 Your Company. Designed and Developed by <a target="_blank" href="http://www.themeinthebox.com">ThemeintheBox.com</a></p>
             </div> -->
